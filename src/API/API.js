@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const apiURL = 'https://sweb.ru/export/turbojournal/'
+export const apiURL = 'https://sweb.ru/export/turbojournal'
 
 const instance = axios.create({
   baseUrl: apiURL,

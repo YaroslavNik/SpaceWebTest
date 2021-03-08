@@ -27,6 +27,7 @@ const getFilteredContent = ({xml, title}: ContentProps) => {
 var Loader = require('react-loader');
 
 const Accordion = ({title}: AccordionProps) => {
+    
     const [height, setHeight] = useState<string | number>(0)
     const [data, setData] = useState<any>('')
     const [isFetching, setIsFetching] = useState(true)

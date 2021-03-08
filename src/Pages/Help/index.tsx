@@ -1,6 +1,6 @@
 import React from 'react'
 import { createUseStyles } from 'react-jss'
-import Accordion from '../../Common/Accodion'
+import Accordion from '../../Common/Accordion'
 
 const titles = [
     'Топ-6 сервисов для проверки кроссбраузерности сайта',
@@ -30,7 +30,7 @@ const Help = () => {
 
 const useStyles = createUseStyles({
     root: {
-        maxWidth: '1029px',
+        width: '100%',
         background: '#FFFFFF',
         boxShadow: '1px 1px 4px #E3E9EC',
         fontSize: '16px',
